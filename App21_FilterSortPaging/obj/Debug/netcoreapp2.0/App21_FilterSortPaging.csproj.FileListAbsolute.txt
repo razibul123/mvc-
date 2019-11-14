@@ -1,0 +1,11 @@
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\bin\Debug\netcoreapp2.0\App21_FilterSortPaging.deps.json
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\bin\Debug\netcoreapp2.0\App21_FilterSortPaging.runtimeconfig.json
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\bin\Debug\netcoreapp2.0\App21_FilterSortPaging.runtimeconfig.dev.json
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\bin\Debug\netcoreapp2.0\App21_FilterSortPaging.dll
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\obj\Debug\netcoreapp2.0\App21_FilterSortPaging.csprojAssemblyReference.cache
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\obj\Debug\netcoreapp2.0\App21_FilterSortPaging.csproj.CoreCompileInputs.cache
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\obj\Debug\netcoreapp2.0\App21_FilterSortPaging.AssemblyInfoInputs.cache
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\obj\Debug\netcoreapp2.0\App21_FilterSortPaging.AssemblyInfo.cs
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\bin\Debug\netcoreapp2.0\App21_FilterSortPaging.pdb
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\obj\Debug\netcoreapp2.0\App21_FilterSortPaging.dll
+G:\HiTech_ASPNET\ProjectWork\App21_FilterSortPaging\App21_FilterSortPaging\obj\Debug\netcoreapp2.0\App21_FilterSortPaging.pdb

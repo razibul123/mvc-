@@ -1,0 +1,78 @@
+﻿@model IEnumerable<App21_FilterSortPaging.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+    int i = 1;
+}
+
+<h2>Index</h2>
+<div class="row">
+    <div class="col-md-3">
+        <a asp-action="Create" class="btn btn-info">Create New</a>
+    </div>
+    <div class="pull-right">
+        <form class="form-inline" asp-controller="Employees" asp-action="index" method="post">
+            <b>Search :</b><input type="text" name="searchtxt" class="form-control" value="@ViewBag.txt" placeholder="Please type your search word..." />
+            <button type="submit" class="btn btn-success">Search</button>
+        </form>
+    </div>
+</div>
+
+<p>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Sl No.
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewBag.sortOrder" asp-route-searchtxt="@ViewBag.txt">Employee Name</a> 
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeStatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Salary)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PayBasis)
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewBag.sortByPosition" asp-route-searchtxt="@ViewBag.txt">Position Title</a>
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @i.
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PayBasis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PositionTitle)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    i++;
+}
+    </tbody>
+</table>
